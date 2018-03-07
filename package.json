@@ -1,0 +1,17 @@
+{
+  "name": "mediaserver",
+  "version": "1.0.0",
+  "description": "A server for serve media.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "media"
+  ],
+  "author": "qixiaofeng",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

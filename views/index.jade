@@ -1,0 +1,7 @@
+html
+  head
+    title 视频列表
+  body
+    - for(var v of videos)
+      div= v.name
+      video(src=v.path, controls=true, muted=true)
